@@ -1,17 +1,17 @@
 # su26-ai301-contribution
-# Contribution [#]: [Issue Title]
+# Contribution [4232]: [A poisoned unit on a harmful (negative heals) terrain is cured without doing harm]
 
 **Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Student:** Abigail Erefah  
+**Issue:** [[GitHub issue link](https://github.com/wesnoth/wesnoth/issues/4232)]  
+**Status:** [Phase I / **Phase II** / Phase III / Phase IV] [**In Progress** / Complete]
 
 ---
 
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-
+I chose this issue because I am interested in game development and it aligns with my skill set and C++ knowledge
 ---
 
 ## Understanding the Issue
