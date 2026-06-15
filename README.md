@@ -1,9 +1,9 @@
 # su26-ai301-contribution
-# Contribution [4232]: [A poisoned unit on a harmful (negative heals) terrain is cured without doing harm]
+# Contribution [1040]: [Units will display a yellow HP bar and emit smoke although their HP is above 75%]
 
 **Contribution Number:** [1 / 2 / 3]  
 **Student:** Abigail Erefah  
-**Issue:** [[GitHub issue link](https://github.com/wesnoth/wesnoth/issues/4232)]  
+**Issue:** [https://github.com/Warzone2100/warzone2100/issues/1040]  
 **Status:** [Phase I / **Phase II** / Phase III / Phase IV] [**In Progress** / Complete]
 
 ---
@@ -23,10 +23,12 @@ I chose this issue because I am interested in game development and it aligns wit
 ### Expected Behavior
 
 [What should happen?]
+The HP bar should only turn yellow when the player's health is below 75%. There should also be smoke
 
 ### Current Behavior
 
 [What actually happens?]
+Currently the bar turns yellow and smokes even when above 75%
 
 ### Affected Components
 
@@ -39,7 +41,7 @@ I chose this issue because I am interested in game development and it aligns wit
 ### Environment Setup
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
-
+It took me a while to understand hwow to setup my environment and build the project for contribution. Because this is a large game, there are separate instructions on hwo to download the project for playing as a consumer and how to build it for contribution. I had a hard time figuring out which steps to follow because I could not differentiate between the two steps so I used AI to help me through the process. 
 ### Steps to Reproduce
 
 1. [Step 1]
@@ -48,7 +50,7 @@ I chose this issue because I am interested in game development and it aligns wit
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [Link to commit in your fork]
+- **Commit showing reproduction:** [[Link to commit in your fork]](https://github.com/abigailere/warzone2100/tree/working-branch)
 - **Screenshots/logs:** [If applicable]
 - **My findings:** [What you discovered during reproduction]
 
