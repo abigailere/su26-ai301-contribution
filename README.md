@@ -1,7 +1,7 @@
 # su26-ai301-contribution
 # Contribution [1040]: [Units will display a yellow HP bar and emit smoke although their HP is above 75%]
 
-**Contribution Number:** [1 / 2 / 3]  
+**Contribution Number:** [**1** / 2 / 3]  
 **Student:** Abigail Erefah  
 **Issue:** [https://github.com/Warzone2100/warzone2100/issues/1040]  
 **Status:** [Phase I / **Phase II** / Phase III / Phase IV] [**In Progress** / Complete]
@@ -65,6 +65,7 @@ It took me a while to understand hwow to setup my environment and build the proj
 ### Proposed Solution
 
 [High-level description of your fix approach]
+I plan to look for the peice of code that controls the color of the health bar and the code that controls the health level and retreat behavior. What I imagine is that the threshold for when the health bar turns yellow is does not match with the **less than** 75%
 
 ### Implementation Plan
 
