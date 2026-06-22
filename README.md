@@ -1,9 +1,9 @@
 # su26-ai301-contribution
-# Contribution [1040]: [Units will display a yellow HP bar and emit smoke although their HP is above 75%]
+# Contribution [4545]: [Inspect organs / Organ damage]
 
 **Contribution Number:** [**1** / 2 / 3]  
 **Student:** Abigail Erefah  
-**Issue:** [https://github.com/Warzone2100/warzone2100/issues/1040]  
+**Issue:** [https://github.com/ss14Starlight/space-station-14/issues/4545]  
 **Status:** [Phase I / **Phase II** / Phase III / Phase IV] [**In Progress** / Complete]
 
 ---
@@ -11,7 +11,7 @@
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-I chose this issue because I am interested in game development and it aligns with my skill set and C++ knowledge
+I chose this issue because I am interested in game development and it aligns with my skill set and C# knowledge
 ---
 
 ## Understanding the Issue
@@ -19,7 +19,7 @@ I chose this issue because I am interested in game development and it aligns wit
 ### Problem Description
 
 [In your own words, what's broken or missing?]
-
+COmmunity would like to add a feature where players can see the status of organs because right now, it is not possible to see which organs belong to who and whether it is still viable
 ### Expected Behavior
 
 [What should happen?]
