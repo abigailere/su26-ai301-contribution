@@ -11,7 +11,7 @@
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
-I chose this issue because I am interested in game development and it aligns with my skill set and C# knowledge
+I chose this issue because I am interested in game development and it aligns with my skill set. I don't have much experience with c# but I have experience with game dev and I usually pick up languages quickly so I don't think that would be an issue. When I saw the project, the premise sounded cool and I liked the collaborative nature of the game. Although it is not marked as a good first issue (the repo doesn't have any right now) I don't think it will be too difficult to implement. I Hope to hone my game development skills and have something production ready for my portfolio beyond independent projects. 
 ---
 
 ## Understanding the Issue
@@ -19,21 +19,21 @@ I chose this issue because I am interested in game development and it aligns wit
 ### Problem Description
 
 [In your own words, what's broken or missing?]
-COmmunity would like to add a feature where players can see the status of organs because right now, it is not possible to see which organs belong to who and whether it is still viable
+Community would like to add a feature where players can see the status of organs because right now, it is not possible to see which organs belong to who and whether it is still viable
 ### Expected Behavior
 
 [What should happen?]
-The HP bar should only turn yellow when the player's health is below 75%. There should also be smoke
+
 
 ### Current Behavior
 
 [What actually happens?]
-Currently the bar turns yellow and smokes even when above 75%
+Currently there is no way to tell where farmed organs come from or if they are damaged. The state of the organ is important for helping players decide which ones to keep and which to get rid of. 
 
 ### Affected Components
 
 [Which parts of the codebase are involved?]
-
+There are a few different types of creatures in this game that have a set of organs. They are group by "system" for example the circulatory system. I am still looking through the folders to understand how specific organs are spawned and how attributes are assigned
 ---
 
 ## Reproduction Process
@@ -41,16 +41,17 @@ Currently the bar turns yellow and smokes even when above 75%
 ### Environment Setup
 
 [Notes on setting up your local development environment - challenges you faced, how you solved them]
-It took me a while to understand hwow to setup my environment and build the project for contribution. Because this is a large game, there are separate instructions on hwo to download the project for playing as a consumer and how to build it for contribution. I had a hard time figuring out which steps to follow because I could not differentiate between the two steps so I used AI to help me through the process. 
+It took me a while to understand hwow to setup my environment and build the project for contribution.All information on how to build the project was located in a separate doc which was really helpful. I had dependency issues that took a few days to work through. I used AI to help me. Currently, I am working on Visual Studios 2022 and the only issue I have is that it cannot recognize .NET even though its there. I can't build from the VS interface but I can from the command line so I will be using that for devlopment. Otherwise everything else is working and I am ready to start working on the issue.
 ### Steps to Reproduce
 
 1. [Step 1]
 2. [Step 2]
 3. [Observed result]
+Because this is a feature request there is no "issue" to reproduce. This is something i will have to implement. I will play through the game to see if I can find a prompt where the information for organs is stored.
 
 ### Reproduction Evidence
 
-- **Commit showing reproduction:** [[Link to commit in your fork]](https://github.com/abigailere/warzone2100/tree/working-branch)
+- **Commit showing reproduction:** [[Link to commit in your fork]](https://github.com/abigailere/space-station-14)
 - **Screenshots/logs:** [If applicable]
 - **My findings:** [What you discovered during reproduction]
 
@@ -65,7 +66,7 @@ It took me a while to understand hwow to setup my environment and build the proj
 ### Proposed Solution
 
 [High-level description of your fix approach]
-I plan to look for the peice of code that controls the color of the health bar and the code that controls the health level and retreat behavior. What I imagine is that the threshold for when the health bar turns yellow is does not match with the **less than** 75%
+I am still looking through the code to understand exactly how organs are organized but i see that there are groups of "systems" like a circulatory system and digestive system, rather than individual organs. Each system has its own file so I think I can add a component where each organ has an attribute of species type and how much damage it has taken. Maybe also include how long its been taken but that depends on how relevent that peice of information will be for creating the feature the player suggested. I can have those values passed in and stored so that in the UI it can be displayed when a player looks at their organ stash
 
 ### Implementation Plan
 
